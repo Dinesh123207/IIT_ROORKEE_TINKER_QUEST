@@ -1,0 +1,139 @@
+/* .header {
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #EC5353;
+    border-radius: 0 0 6.5rem 6.5rem;
+} */
+
+
+
+.header {
+    height: 9rem; /* Decreased height */
+    max-width: 90%; /* Decreased width */
+    display: flex;
+
+    /* border-color: grey; */
+    /* flex-direction: row; */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    /* background-color: #f0e8f4; */
+
+    /* finalized color */
+    background-color: white; 
+    border-color: 1px solid #f0f0f0;
+    /* background-color: #F7F5FF; */
+
+    /* background-color: rgb(228, 228, 228); */
+    /* background-color: black; */
+    /* background-color: rgb(224, 211, 236); */
+    /* background-color: #FFFFFF; */
+    border-radius: 2rem; /* Adjusted border-radius for rounded edges */
+    /* margin: 2rem; */
+    margin: 3rem 6rem 2rem 8rem; /* 2rem top, right, bottom; 4rem left */
+    box-shadow: 0 0 100px rgba(11, 11, 11, 0.1);
+} 
+/* 
+.header-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+} */
+.header-logos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Updated to align logos from the left */
+    cursor: pointer;
+}
+
+.sih-logo {
+    width: 15rem;
+    margin-left: 5rem !important;
+    /* margin-left: 5rem;  */
+}
+
+
+.vit-logo {
+    width: 20rem;
+}
+
+.bajaj-logo {
+    width: 25rem;
+}
+
+/* Hover effect */
+.header-admin-login:hover,
+.header-login:hover {
+    /* background-color:#7e6bec;  */
+    transform: scale(1.1);
+    /* color: #fff; */
+}
+
+.header-buttons{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2.3rem;
+    margin-right: 3rem;
+    margin-left: auto;
+}
+
+.header-admin-login{
+    border: 0.2rem solid #F76F83;
+    /* border: 0.2rem solid  #7e6bec; */
+    /* border: 0.2rem solid rgb(76, 71, 110); */
+    /* border:0.2rem solid hsl(202, 100%, 89%) ; */
+    /* border: 0.2rem solid rgb(76, 71, 110); */
+    border-radius: 3rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    height: 4.6rem;
+    line-height: 144.02%;
+    text-align: center;
+    width: 16rem;
+    background-color: #F76F83;
+    /* background-color: #F7F5FF; */
+    /* background-color: #fff; */
+    /* background: #ff6b6b; */
+    /* color: #7e6bec;  */
+
+    color: #fff;
+
+    /* color: #F7F5FF; */
+}
+
+.header-login{
+    border:0.2rem solid  #F76F83;
+    /* border: 0.2rem solid #fff; */
+    border-radius: 3rem;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    height: 4.6rem;
+    line-height: 144.02%;
+    text-align: center;
+    width: 16rem;
+    background:   #F76F83;
+    color: #fff;
+} 
+.header-link {
+    margin-left: 7rem;
+    margin-right: 1rem; /* Add margin between links */
+    text-decoration: none; /* Remove underline */
+    color: #000; /* Set link color */
+    font-size: 1.8rem; /* Increase font size */
+    font-family: 'Poppins', sans-serif; 
+    margin-top: 3.7rem; /* Set margin from the top */
+    display: inline-block; /* Ensures the margin-top works properly */
+}
+
+.header-link:hover {
+    color: rgb(39, 39, 212); /* Change color on hover */
+}

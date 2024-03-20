@@ -1,0 +1,6 @@
+upload_folder\sih1.jpeg
+upload_folder\sih2.jpeg
+upload_folder\sih3.jpeg
+upload_folder\sih4.jpeg
+upload_folder\sih5.jpeg
+upload_folder\sih6.jpeg

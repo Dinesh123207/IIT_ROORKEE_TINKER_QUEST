@@ -1,0 +1,43 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  /* background-color: #bb86fc; Set the background color for the entire page */
+}
+
+/* .grid {
+    display: grid;
+  }
+  
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .justify-items-center {
+    justify-items: center;
+  }
+  
+  .gap-4 {
+    gap: 1rem;
+  }
+  
+  .p-8 {
+    padding: 2rem;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+ 
+.pt-50 {
+    padding-top: 5rem;
+  }
+   
+  .rounded-lg {
+    border-radius: 1rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 1px solid rgba(0, 0, 0, 0.1); /* Shadow effect */
+  /* } */
+   

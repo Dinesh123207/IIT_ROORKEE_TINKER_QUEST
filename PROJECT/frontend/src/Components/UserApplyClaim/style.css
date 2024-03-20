@@ -1,0 +1,187 @@
+/* .background-image {
+    background-image: url('D:/downloads/SIH2023/Sheffalee/SIH/public/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+   */
+   .custom-box {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+    /* box-shadow: 8px 8px 8px 8px solid  rgba(0, 0, 0, 0.2); Adjust the values as needed */
+  }
+
+.form-body-upload {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left-form-body {
+    height: 100%;
+    width: 50%;
+    background-color: #FAFAFA;
+    border-radius: 6rem 0rem 0rem 6rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 2rem;
+    background-color: #111111;
+}
+
+.form-upload-page{
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+input[type="file"] {
+    position: relative;
+    color: #757575;
+}
+
+input[type="file"]::file-selector-button {
+    width: 136px;
+    color: transparent;
+}
+
+/* Faked label styles and icon */
+input[type="file"]::before {
+    position: absolute;
+    pointer-events: none;
+    top: 10px;
+    left: 16px;
+    height: 20px;
+    width: 20px;
+    content: "";
+    background-image: url("/public/upload.png");
+    color: #757575;
+}
+
+input[type="file"]::after {
+    position: absolute;
+    pointer-events: none;
+    top: 11px;
+    left: 40px;
+    color: white;
+    content: "Upload File";
+}
+
+/* ------- From Step 1 ------- */
+
+/* file upload button */
+input[type="file"]::file-selector-button {
+    border-radius: 4px;
+    padding: 0 16px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #353535;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+}
+
+/* file upload button hover state */
+input[type="file"]::file-selector-button:hover {
+    background-color: #353535;
+}
+
+/* file upload button active state */
+input[type="file"]::file-selector-button:active {
+    background-color: #353535;
+}
+
+.left-form-caption {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.user-name-input,
+.user-mobile-input,
+.user-email-input {
+    width: 30rem;
+    height: 4rem;
+    border-radius: 4rem;
+    border: none;
+    background-color: #353535;
+    box-sizing: content-box;
+    padding-left: 2rem;
+    outline: 0;
+    color: white;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.submit-form-btn{
+    cursor: pointer;
+    width: 20rem;
+    height: 4rem;
+    font-family: 'DM Sans';
+    font-weight: 300;
+    font-size: 2.1rem;
+    border-radius: 6rem;
+    border: none;
+    color: white;
+    background-color: #ED1C24;
+    
+}
+
+.wrapper-right-form-body {
+    width: 50%;
+    height: 100%;
+    border-radius: 0 6rem 6rem 0;
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+
+}
+
+.right-form-body {
+    height: 96%;
+    width: 100%;
+    background-color: #ED1C24;
+    border-radius: 6rem 6rem 6rem 6rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right-form-caption {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 5rem;
+    color: #FAFAFA;
+    margin-bottom: 0;
+}
+
+.right-details-caption {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #FAFAFA;
+    margin-bottom: 0;
+}
+
+.right-img-form-body {
+    width: 50rem;
+    height: 38rem;
+}

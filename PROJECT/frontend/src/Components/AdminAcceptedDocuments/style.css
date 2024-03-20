@@ -1,0 +1,184 @@
+.client-id-document, .client-name-document, .client-document-document, .client-score-document-rejected {
+    /* font-family: 'DM Sans'; */
+    font-weight: 400;
+    /* font-size: 2.1rem; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.document-client-id, .document-client-name, .document-client-document, .document-client-score-rejected {
+    /* font-family: 'DM Sans'; */
+    font-weight: 400;
+    /* font-size: 2.5rem; */
+    margin-top: 0;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.document-content-accepted {
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    gap:1rem;
+}
+
+
+.document-caption-navbar {
+    display: flex;
+    /* width: 4rem; */
+    justify-content: space-around;
+    height: 3rem;
+    width: auto;
+    gap:80px;
+    /* font-size: 1rem; */
+    background-color: #D0A2F7;
+    color: white;
+    border-radius: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+    opacity: 0.9;
+    /* font-size: 1rem; */
+    /* font-size: 1.3rem; */
+}
+/* 
+.client-id-document,
+.client-name-document,
+.client-document-document,
+.client-score-document-accepted {
+    /* font-family: 'DM Sans'; */
+    /* font-weight: 400; */
+    /* font-size: 2.1rem; */
+    /* font-size: 1.3rem; */
+    /* font-size: 1rem; */
+    /* margin-top: 0; */
+    /* margin-bottom: 0; */
+/* } */ 
+
+.client-id-document, .client-name-document, .client-document-document, .client-score-document-accepted{
+    font-size: 1.3rem;
+}
+
+.document-wrapper-card-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: auto;
+    height: 100%;
+}
+
+.document-caption-details-card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+    gap: 1rem;
+}
+
+.wrapper-document-up {
+    height: 3rem;
+    display: flex;
+    background-color: #F6F7FA;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    color: black;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    opacity: 0.9;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-sizing: content-box;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    /* height: 3rem;
+    display: flex;
+
+    justify-content: space-around;
+    /* justify-content: space-around; */
+    /* align-items: center;
+    background-color: #F6F7FA;
+    color: black;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    opacity: 0.9;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */ 
+}
+
+.document-client-id,
+.document-client-name,
+.document-client-document,
+.document-client-score-accepted {
+    /* font-family: 'DM Sans'; */
+    font-weight: 400;
+    /* font-size: 1.3rem; */
+    /* font-size: 2.5rem; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.document-client-score-accepted {
+    color: green;
+}
+
+.wrapper-document-down {
+    height: 3rem;
+    display: flex;
+    background-color: #F6F7FA;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    color: black;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    opacity: 0.9;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-sizing: content-box;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.feedback-document-textarea {
+    resize: none;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 0.8rem;
+    outline: 0;
+    border-radius: 4rem;
+    /* font-family: 'DM Sans'; */
+    font-weight: 200;
+    /* font-size: 1.3rem; */
+    /* font-size: 1.6rem; */
+}
+
+.reject-btn-document{
+    /* width: 50%; */
+    /* height: ; */
+    background-color: #ED1C24;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    /* font-family: 'DM Sans'; */
+    font-weight: 400;
+    /* font-size: 2rem; */
+    cursor: pointer;
+}
+
+.suspicious-btn-document{
+    cursor: pointer;
+    /* width: 50%; */
+    /* height: 5rem; */
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    /* font-family: 'DM Sans'; */
+    font-weight: 400;
+    /* font-size: 1.3rem; */
+    /* font-size: 2rem; */
+}

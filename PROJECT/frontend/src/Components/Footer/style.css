@@ -1,0 +1,16 @@
+.footer{
+    width: 100%;
+    height: 5rem;
+    background-color: #3C3D42;
+    border-radius: 6rem 6rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content{
+    color: white;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,124 @@
+.user-history-content-accepted {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    top:2rem;
+}
+
+
+.user-history-caption-navbar {
+    display: flex;
+    justify-content: space-around;
+    /* height: 6rem; */
+    background-color: #D0A2F7;
+    color: white;
+    border-radius: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+    opacity: 0.9;
+    /* font-size: 1.6rem; */
+}
+
+.client-id-user-history,
+.client-name-user-history,
+.client-document-user-history,
+.client-score-user-history {
+    /* font-family: 'DM Sans'; */
+    font-weight: 400;
+    /* font-size: 2rem; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.user-history-wrapper-card-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: auto;
+    height: 50%;
+}
+
+.user-history-caption-details-card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: auto;
+    gap: 1rem;
+}
+
+.wrapper-user-history-up {
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F6F7FA;
+    color: black;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    opacity: 0.9;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.user-history-client-id,
+.user-history-client-name,
+.user-history-client-document,
+.user-history-client-score {
+    /* font-family: 'DM Sans'; */
+    font-weight: 400;
+    /* font-size: 2.5rem; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.user-history-client-score-Accepted{
+    color: green;
+}
+
+.user-history-client-score-Rejected{
+    color: red;
+}
+
+.user-history-client-score-Suspicious{
+    color: orange;
+}
+
+.wrapper-user-history-down {
+    height: 3rem;
+    display: flex;
+    background-color: #F6F7FA;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    color: black;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    opacity: 0.9;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-sizing: content-box;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.feedback-document-textarea {
+    resize: none;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 0.8rem;
+    outline: 0;
+    border-radius: 4rem;
+    /* font-family: 'DM Sans'; */
+    font-weight: 200;
+    /* font-size: 1.6rem; */
+}
+
+.user-history-feedback-from-admin{
+    /* font-family: 'DM Sans'; */
+    font-weight: 200;
+    /* font-size: 1.6rem; */
+}

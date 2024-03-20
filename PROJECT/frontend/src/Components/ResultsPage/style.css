@@ -1,0 +1,178 @@
+.result-details {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    gap: 3.5rem;
+}
+
+.result-caption-navbar {
+    display: flex;
+    justify-content: space-around;
+    height: 6rem;
+    background-color: #D0A2F7;
+    color: white;
+    border-radius: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.client-id-result,
+.client-name-result,
+.client-document-result,
+.client-score-result {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 2.1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.result-caption-details {
+    display: flex;
+    justify-content: space-around;
+    height: 8rem;
+    background-color: #F6F7FA;
+    color: black;
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+    opacity: 0.9;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.enter-client-id,
+.enter-client-name,
+.enter-client-document,
+.enter-client-score {
+    /* font-family: 'DM Sans'; */
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.score-result-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.wrapper-score-result-card{
+    background-color:#d5abf8;
+    width: 100rem;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 3rem;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+.scores-result-value{
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.score-result-mid{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.score-1-value-card,
+.score-2-value-card,
+.score-3-value-card,
+.final-score-value-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FDF7E4;
+    width: 30rem;
+    height: 5rem;
+    border-radius: 4rem;
+}
+
+.image-icon-score{
+    width: 3rem;
+    height: 3rem;
+}
+
+.final-score-value-card{
+    border-radius: 1.2rem;
+}
+
+.score-1-value,
+.score-2-value,
+.score-3-value,
+.score-3-value{
+    font-family: 'DM Sans';
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.claim-and-download-report-result-right{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.claim-btn-result{
+    cursor: pointer;
+    width: 14rem;
+    height: 4.5rem;
+    background-color:#A60A3D;
+    color: black;
+    border: none;
+    font-family: 'DM Sans';
+    font-weight: 300;
+    font-size: 2.6rem;
+    border-radius: 5rem;
+    opacity: 0.9;
+}
+
+.claim-btn-result:hover{
+    background-color:#A60A3D;
+}
+
+.download-btn-report-result{
+    display: flex;
+    gap: 1rem;
+    width: 28rem;
+    height: 8rem;
+    align-items: center;
+    background: hotpink;
+    justify-content: center;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+
+.download-btn-report-result:hover{
+    background-color:hotpink;
+}
+
+.download-btn-caption{
+    font-family: 'DM Sans';
+    font-weight: 300;
+    font-size: 2.6rem;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.download-btn-caption:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
